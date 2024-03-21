@@ -1,5 +1,17 @@
-NEUROEVOLUTION
-——————————————————
+# logos. neuroevolution.
+
+## Resources:
+- Amazing website: [evolution.ml](https://evolution.ml/)
+- __Article:__ _Novelty search and the problem with objectives._ By Joel Lehman and Kenneth O. Stanley. [Link](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehmanNoveltySearch11.pdf)
+- __Article:__ _Say “Sul Sul!∗” to SimSim, A Sims-Inspired Platform for Sandbox Game AI_. By NYU students. [Link](https://arxiv.org/pdf/2008.11258.pdf)
+- Motivation: [Flexible Muscle-Based Locomotion for Bipedal Creatures](https://www.youtube.com/watch?v=pgaEE27nsQw). Youtube. Nov 25, 2013.
+- [Evolutionary computation course](https://github.com/lmarti/evolutionary-computation-course). By [@lmarti](https://github.com/lmarti)
+- [How to Build a Conscious AI Agent](https://www.linkedin.com/pulse/how-build-conscious-ai-agent-babak-hodjat-3eotc/?trackingId=dTlgwrrjhu5MbD%2FBzGX7fg%3D%3D). By Babak Hodjat. March 3, 2024.
+- [GECCO 2024](https://gecco-2024.sigevo.org/HomePage)
+
+
+
+## Notes:
 - Even if I achieve consciousness, it is not quantum. Algorithm’s pseudo randomness (on EC) at best.
 - How entropy and information works on generative AI
 - Novelty reward (Novelty creates a gradient of behavioral differences — maximizing is done without any intent of search termination or direction.) + Fitness reward
