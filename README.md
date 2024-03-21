@@ -7,8 +7,14 @@
 - Motivation: [Flexible Muscle-Based Locomotion for Bipedal Creatures](https://www.youtube.com/watch?v=pgaEE27nsQw). Youtube. Nov 25, 2013.
 - [Evolutionary computation course](https://github.com/lmarti/evolutionary-computation-course). By [@lmarti](https://github.com/lmarti)
 - [How to Build a Conscious AI Agent](https://www.linkedin.com/pulse/how-build-conscious-ai-agent-babak-hodjat-3eotc/?trackingId=dTlgwrrjhu5MbD%2FBzGX7fg%3D%3D). By Babak Hodjat. March 3, 2024.
+- [Is Learning in Games Good for the Learners?](https://proceedings.neurips.cc/paper_files/paper/2023/file/a9ea92ef18aae17627d133534209e640-Paper-Conference.pdf)
+- Human-Competitive website (with GP videos) - [Link](https://www.human-competitive.org/)
+- Abstract and Reasoning Corpus benchmark - [Link](https://github.com/fchollet/ARC)
 - [GECCO 2024](https://gecco-2024.sigevo.org/HomePage)
-
+    - [This is GECCO](https://www.youtube.com/watch?v=wtTpY9th8HY)
+    - Other journals: NeurIPS, ACL
+- [evotorch](https://github.com/nnaisense/evotorch): Advanced evolutionary computation library built directly on top of PyTorch, created at NNAISENSE.
+- [DEAP](https://github.com/DEAP/deap): Distributed Evolutionary Algorithms in Python
 
 
 ## Notes:
