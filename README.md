@@ -12,14 +12,20 @@
 - Human-Competitive website (with GP videos) - [Link](https://www.human-competitive.org/)
 - Abstract and Reasoning Corpus benchmark - [Link](https://github.com/fchollet/ARC)
 - [GECCO 2024](https://gecco-2024.sigevo.org/HomePage)
-    - [This is GECCO](https://www.youtube.com/watch?v=wtTpY9th8HY)
-    - Other journals: NeurIPS, ACL
+  - [This is GECCO](https://www.youtube.com/watch?v=wtTpY9th8HY)
+  - Other journals: NeurIPS, ACL
 - [evotorch](https://github.com/nnaisense/evotorch): Advanced evolutionary computation library built directly on top of PyTorch, created at NNAISENSE.
 - [DEAP](https://github.com/DEAP/deap): Distributed Evolutionary Algorithms in Python
 
 ## Notes
 
+- TWO APPROACHES: From environment simulations, or pre-built genetics. How to merge both?
 - How to train agents through observation? (senses)
+- Agent needs periodic 'trials and tribulations.' What would the nature of these trials be? Creative? Cyclic? Monte-Carlo like (RL trials)?
+- Brain on agents is good, but it must come from how the environment is set.
+  - How to generate big bang sized complexity? Must try algorithms. Particle generator c++
+  - N-body simulations, three-body problem, conway's game of life, emerging complexity
+  - Instead of making 'pixels as atoms', we must define an atom with specific properties, universe-like properties
 - Hierarchical planning (more than 2-level planing: e.g. figure path -> move limbs)
 - "Only use RL when planning doesn't yield predicted outcome" ([Yann Lecun](https://www.youtube.com/watch?v=5t1vTLU7s40))
   - If that happens: either the objective function does not reflect what one wants to optimize, or the world model is wrong
@@ -43,7 +49,7 @@
 - Capacity of reasoning should not impact the genetic code that determines such capacity. The capacity of reasoning itself is subject to change.
   - An expensive reasoning to make the architecture itself
   - And a cheap reasoning to live and see its fitness
-- Mindless intelligence. A purely numerical solution beat the best chess player at the time, that could tell you “the way he plays”. 
+- Mindless intelligence. A purely numerical solution beat the best chess player at the time, that could tell you “the way he plays”.
 - "To find Nash equilibrium, have every player in a non-cooperative game reveal their strategies to one another. If no player changes their strategy after knowing all others' strategies, a Nash equilibrium exists.”
 - Genotype (Encoding) and Phenotype (Decoding)
 - Optimize things that are non-differentiable and have a very long time horizon (meta learning, sparse exploration problems)
