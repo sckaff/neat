@@ -38,6 +38,7 @@
 - What separates system 1 and system 2 in humans? 'easy/hard tasks'
   - Moravec's paradox
 - Even if I achieve consciousness, it is not quantum. Algorithm’s pseudo randomness (on EC) at best.
+  - [Adding randomness into algorithms makes them better at solving nondeterministic problems.](https://www.livescience.com/physics-mathematics/mathematics/avi-wigderson-wins-dollar1-million-turing-award-for-using-randomness-to-change-computer-science)
 - How entropy and information works on generative AI
 - Novelty reward (Novelty creates a gradient of behavioral differences — maximizing is done without any intent of search termination or direction.) + Fitness reward
   - Novelty (exploration) -> Fitness (exploitation) ...
