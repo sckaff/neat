@@ -35,6 +35,7 @@
 - In traditional neural net, any reasoning requires the same amount of computation = layer * tokens. MoE and outer layer will define how big of reasoning to perform.
   - A new neural net to tell whether it is a good answer or not... trained on what? Use 'abstract representation space'... plan the answer by optimization before turning into text
 - The agent should learn mostly from observations. Maybe a little bit from interactions
+- "Faith is the force of life"
 - What separates system 1 and system 2 in humans? 'easy/hard tasks'
   - Moravec's paradox
 - Even if I achieve consciousness, it is not quantum. Algorithm’s pseudo randomness (on EC) at best.
