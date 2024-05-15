@@ -1,6 +1,4 @@
-# logos. neuroevolution
-
-## Resources
+# Resources
 
 - Amazing website: [evolution.ml](https://evolution.ml/)
 - __Article:__ _Novelty search and the problem with objectives._ By Joel Lehman and Kenneth O. Stanley. [Link](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehmanNoveltySearch11.pdf)
@@ -17,7 +15,7 @@
 - [evotorch](https://github.com/nnaisense/evotorch): Advanced evolutionary computation library built directly on top of PyTorch, created at NNAISENSE.
 - [DEAP](https://github.com/DEAP/deap): Distributed Evolutionary Algorithms in Python
 
-## Notes
+# Notes
 
 - [Genesis 1](https://www.biblegateway.com/passage/?search=Genesis%201&version=NIV) notes:
     1. Create the environment
