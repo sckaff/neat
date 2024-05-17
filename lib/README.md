@@ -1,22 +1,11 @@
-# Resources
-
-- Amazing website: [evolution.ml](https://evolution.ml/)
-- __Article:__ _Novelty search and the problem with objectives._ By Joel Lehman and Kenneth O. Stanley. [Link](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehmanNoveltySearch11.pdf)
-- __Article:__ _Say “Sul Sul!∗” to SimSim, A Sims-Inspired Platform for Sandbox Game AI_. By NYU students. [Link](https://arxiv.org/pdf/2008.11258.pdf)
-- Motivation: [Flexible Muscle-Based Locomotion for Bipedal Creatures](https://www.youtube.com/watch?v=pgaEE27nsQw). Youtube. Nov 25, 2013.
-- [Evolutionary computation course](https://github.com/lmarti/evolutionary-computation-course). By [@lmarti](https://github.com/lmarti)
-- [How to Build a Conscious AI Agent](https://www.linkedin.com/pulse/how-build-conscious-ai-agent-babak-hodjat-3eotc/?trackingId=dTlgwrrjhu5MbD%2FBzGX7fg%3D%3D). By Babak Hodjat. March 3, 2024.
-- [Is Learning in Games Good for the Learners?](https://proceedings.neurips.cc/paper_files/paper/2023/file/a9ea92ef18aae17627d133534209e640-Paper-Conference.pdf)
-- Human-Competitive website (with GP videos) - [Link](https://www.human-competitive.org/)
-- Abstract and Reasoning Corpus benchmark - [Link](https://github.com/fchollet/ARC)
-- [GECCO 2024](https://gecco-2024.sigevo.org/HomePage)
-  - [This is GECCO](https://www.youtube.com/watch?v=wtTpY9th8HY)
-  - Other journals: NeurIPS, ACL
-- [evotorch](https://github.com/nnaisense/evotorch): Advanced evolutionary computation library built directly on top of PyTorch, created at NNAISENSE.
-- [DEAP](https://github.com/DEAP/deap): Distributed Evolutionary Algorithms in Python
-
 # Notes
 
+## Building process
+
+- On dissipative energy:
+  - The environment will need a constant source of energy to maintain non-equilibrium
+  - Fitness will be accounted to those who dissipate the most energy in its lifetime. "Life as a dissipative structure" - Ilya Prigogine
+  - Stability/Maintenance is as important as self-replication. Is this an emergent behavior or not?!
 - [Genesis 1](https://www.biblegateway.com/passage/?search=Genesis%201&version=NIV) notes:
     1. Create the environment
     2. Make it cyclical
@@ -24,7 +13,6 @@
     4. Have ground as "evolution phase" + fitness goal
     5. Ground has fruits, seeds, animals, and elements
     6. Constant source of light
-- TWO APPROACHES: From environment simulations, or pre-built genetics. How to merge both?
 - How to train agents through observation? (senses)
 - Agent needs periodic 'trials and tribulations.' What would the nature of these trials be? Creative? Cyclic? Monte-Carlo like (RL trials)?
 - Brain on agents is good, but it must come from how the environment is set.
@@ -78,3 +66,31 @@
 - Revisit Nash equilibrium? Achieve Open-ended evolution ? Never-ending algorithm? Exploration vs exploitation?
 - Updating weights but also nodes gives us a new degree of freedom (node creation and destruction?)
 - The opportunity that a machine in which creativity emerges can be ground-breaking.  
+
+### Articles
+
+1. [_Efficient Evolution of Neural Network Topologies_. By Kenneth O. Stanley and Risto Miikkulainen. 2001.](https://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf)
+2. [_Biological order, structureand instabilities. By I. Prigogine and G. Nicolis. 1971._](https://repositories.lib.utexas.edu/server/api/core/bitstreams/5e8c94d3-1ca5-4b35-a010-6cc6378fc825/content)
+3. [_Novelty search and the problem with objectives._ By Joel Lehman and Kenneth O. Stanley.](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehmanNoveltySearch11.pdf)
+4. [_Say “Sul Sul!∗” to SimSim, A Sims-Inspired Platform for Sandbox Game AI_. By NYU students.](https://arxiv.org/pdf/2008.11258.pdf)
+
+## Misc
+
+- Amazing website: [evolution.ml](https://evolution.ml/)
+- Motivation: [Flexible Muscle-Based Locomotion for Bipedal Creatures](https://www.youtube.com/watch?v=pgaEE27nsQw). Youtube. Nov 25, 2013.
+- [Evolutionary computation course](https://github.com/lmarti/evolutionary-computation-course). By [@lmarti](https://github.com/lmarti)
+- [How to Build a Conscious AI Agent](https://www.linkedin.com/pulse/how-build-conscious-ai-agent-babak-hodjat-3eotc/?trackingId=dTlgwrrjhu5MbD%2FBzGX7fg%3D%3D). By Babak Hodjat. March 3, 2024.
+- [Is Learning in Games Good for the Learners?](https://proceedings.neurips.cc/paper_files/paper/2023/file/a9ea92ef18aae17627d133534209e640-Paper-Conference.pdf)
+- Human-Competitive website (with GP videos) - [Link](https://www.human-competitive.org/)
+- Abstract and Reasoning Corpus benchmark - [Link](https://github.com/fchollet/ARC)
+- [GECCO 2024](https://gecco-2024.sigevo.org/HomePage)
+  - [This is GECCO](https://www.youtube.com/watch?v=wtTpY9th8HY)
+  - Other journals: NeurIPS, ACL
+- [evotorch](https://github.com/nnaisense/evotorch): Advanced evolutionary computation library built directly on top of PyTorch, created at NNAISENSE.
+- [DEAP](https://github.com/DEAP/deap): Distributed Evolutionary Algorithms in Python
+
+## Old questions
+
+1. - TWO APPROACHES: From environment simulations, or pre-built genetics. How to merge both?
+
+_Answer:_ Both.
