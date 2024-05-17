@@ -14,7 +14,6 @@
     5. Ground has fruits, seeds, animals, and elements
     6. Constant source of light
 - How to train agents through observation? (senses)
-- Agent needs periodic 'trials and tribulations.' What would the nature of these trials be? Creative? Cyclic? Monte-Carlo like (RL trials)?
 - Brain on agents is good, but it must come from how the environment is set.
   - How to generate big bang sized complexity? Must try algorithms. Particle generator c++
   - N-body simulations, three-body problem, conway's game of life, emerging complexity
@@ -47,32 +46,22 @@
 - Mindless intelligence. A purely numerical solution beat the best chess player at the time, that could tell you “the way he plays”.
 - "To find Nash equilibrium, have every player in a non-cooperative game reveal their strategies to one another. If no player changes their strategy after knowing all others' strategies, a Nash equilibrium exists.”
 - Genotype (Encoding) and Phenotype (Decoding)
+  - Self-replication-only at first? Setting up how chromosomes work seems interesting though.
 - Optimize things that are non-differentiable and have a very long time horizon (meta learning, sparse exploration problems)
 - Competitive Coevolution = Adversarial Training | Cooperative Coevolution = ?
 - EVOLUTION ON THE OUTER-LOOP, LEARNING IN THE INNER LOOP
-- Set: Environment and Genetics (doesn’t have to be binary… btw. Why 4 GTCA?)
-- Neuroevolution
-  - Q* was indeed a leak
-    - Recognition of the importance of not over-focusing on specific features at the expense of overall functionality
-    - The prospect of developing an ever-complex system sustained only by energy input.
-    - Similarities between “genotype (encoding) and phenotype (decoding)“ ?
-    - Evolutionary Computation (EC) has a broad search space; Deep Learning (DL) offers robust specific learning.
-- How did edward edberg get his opportunity to do research at the university of chicago?
-- The prospect of developing an ever-complex system sustained only by energy input.
-- Advocacy for the benefits of multimodal deep learning agents in understanding complex biological systems. (Ask ChatGPT is that similar to multi objective optimization?)
-- Any benefit pairing it with Reinforcement Learning?
+  - Evolutionary Computation (EC) has a broad search space; Deep Learning (DL) offers robust specific learning.
+- Any benefit pairing it with Reinforcement Learning? Q*?
 - The necessity for a broader theoretical understanding of learning in machines.
-- moving beyond supervised learning. (Ask ChatGPT - Why? What can we learn with unsupervised learning that supervised doesnt offer?)
 - Revisit Nash equilibrium? Achieve Open-ended evolution ? Never-ending algorithm? Exploration vs exploitation?
-- Updating weights but also nodes gives us a new degree of freedom (node creation and destruction?)
-- The opportunity that a machine in which creativity emerges can be ground-breaking.  
+- Updating weights but also nodes gives us a new degree of freedom (node creation and destruction?)  
 
 ### Articles
 
-1. [_Efficient Evolution of Neural Network Topologies_. By Kenneth O. Stanley and Risto Miikkulainen. 2001.](https://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf)
-2. [_Biological order, structureand instabilities. By I. Prigogine and G. Nicolis. 1971._](https://repositories.lib.utexas.edu/server/api/core/bitstreams/5e8c94d3-1ca5-4b35-a010-6cc6378fc825/content)
-3. [_Novelty search and the problem with objectives._ By Joel Lehman and Kenneth O. Stanley.](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehmanNoveltySearch11.pdf)
-4. [_Say “Sul Sul!∗” to SimSim, A Sims-Inspired Platform for Sandbox Game AI_. By NYU students.](https://arxiv.org/pdf/2008.11258.pdf)
+1. [_Efficient Evolution of Neural Network Topologies_](https://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf). By Kenneth O. Stanley and Risto Miikkulainen. 2001.
+2. [_Biological order, structureand instabilities.](https://repositories.lib.utexas.edu/server/api/core/bitstreams/5e8c94d3-1ca5-4b35-a010-6cc6378fc825/content) By I. Prigogine and G. Nicolis. 1971._
+3. [_Novelty search and the problem with objectives._](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehmanNoveltySearch11.pdf) By Joel Lehman and Kenneth O. Stanley.
+4. [_Say “Sul Sul!∗” to SimSim, A Sims-Inspired Platform for Sandbox Game AI_.](https://arxiv.org/pdf/2008.11258.pdf) By NYU students.
 
 ## Misc
 
@@ -91,6 +80,10 @@
 
 ## Old questions
 
-1. - TWO APPROACHES: From environment simulations, or pre-built genetics. How to merge both?
+1. TWO APPROACHES: From environment simulations, or pre-built genetics. How to merge both?
+  
+    Both.
 
-_Answer:_ Both.
+2. Agent needs periodic 'trials and tribulations.' What would the nature of these trials be? Creative? Cyclic? Monte-Carlo like (RL trials)?
+  
+    It will be emergent through competition with other agents. Maybe not useful at the beginning, as the environment must be populated first, then competed against (as agents become increasingly different in neural gene).
