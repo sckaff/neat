@@ -2,10 +2,12 @@
 
 ## Building process
 
-- On dissipative energy:
-  - The environment will need a constant source of energy to maintain non-equilibrium
-  - Fitness will be accounted to those who dissipate the most energy in its lifetime. "Life as a dissipative structure" - Ilya Prigogine
-  - Stability/Maintenance is as important as self-replication. Is this an emergent behavior or not?!
+- Evolution should be a way to circumvent exploding/vaishing gradients
+- Damage (free, non-specialized energy) should lead for a network to maintain itself.
+  - Stability/Maintenance is as important as self-replication. Is it emergent or should it be implemented?  
+- The environment will need a constant source of energy to maintain non-equilibrium
+- Fitness function will be multi-objective, but one of it will be: How much energy it dissipates.
+  - Sure, making the network bigger is always better, but what is the constraint/limitation for this?
 - [Genesis 1](https://www.biblegateway.com/passage/?search=Genesis%201&version=NIV) notes:
     1. Create the environment
     2. Make it cyclical
