@@ -1,7 +1,10 @@
 # Notes
 
 ## Building process
-
+- Sleep:
+  - Maintenance, 4 stages, 90 mins
+  - Information alchemy
+  - "Knowledge --(dream)---> Wisdom"
 - Evolution should be a way to circumvent exploding/vaishing gradients
 - Damage (free, non-specialized energy) should lead for a network to maintain itself.
   - Stability/Maintenance is as important as self-replication. Is it emergent or should it be implemented?  
