@@ -1,6 +1,7 @@
 # Notes
 
 ## Building process
+
 - Sleep:
   - Maintenance, 4 stages, 90 mins
   - Information alchemy

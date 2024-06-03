@@ -1,2 +1,34 @@
-.vscode/
+# Ignore intermediate build files and output binaries
+/bin/
+
+# Third-party libraries
+/third_party/
+
+# Ignore system-specific files
 .DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+# Visual Studio Code
+.vscode/
+.vscode/*
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore documentation files
+*.pdf
+*.chm
+*.epub
+*.docx
+*.pptx
+
+# Ignore archives
+*.tar.gz
+*.zip
+*.tar
+*.tgz
+*.rar
