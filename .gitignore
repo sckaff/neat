@@ -1,8 +1,9 @@
 # Ignore intermediate build files and output binaries
+/build/
 /bin/
 
 # Third-party libraries
-/third_party/
+/third-party/
 
 # Ignore system-specific files
 .DS_Store

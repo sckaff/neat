@@ -1,25 +1,34 @@
-cmake_minimum_required(VERSION 3.10)
-project(neuroevolution)
+cmake_minimum_required(VERSION 3.10)  # Specify the minimum CMake version required
+project(logos)                  # Define the project name
 
-# Set C++ standard
-set(CMAKE_CXX_STANDARD 17)
-
-# Include directories
-include_directories(include)
-include_directories(third_party/imgui)
+set(CMAKE_CXX_STANDARD 11)            # Set the C++ standard to be used
 
 # Add source files
-file(GLOB_RECURSE SOURCES "src/*.cpp")
+set(SOURCES
+    src/main.cpp
+    third-party/imgui/imgui.cpp
+    third-party/imgui/imgui_draw.cpp
+    third-party/imgui/imgui_demo.cpp
+    third-party/imgui/imgui_tables.cpp
+    third-party/imgui/imgui_widgets.cpp
+    third-party/imgui/backends/imgui_impl_glfw.cpp
+    third-party/imgui/backends/imgui_impl_opengl3.cpp
+    third-party/glad/src/glad.c
+)
 
-# Add third-party libraries
-add_subdirectory(third_party/imgui)
+# Add include directories
+include_directories(
+    third-party/imgui
+    third-party/imgui/backends
+    third-party/glad/include
+)
 
-# Create the library
-add_library(neuroevolution ${SOURCES})
+include_directories(/System/Library/Frameworks/OpenGL.framework)
 
-# Link third-party libraries
-target_link_libraries(neuroevolution PRIVATE imgui)
+# Find and link GLFW
+find_package(glfw3 3.3 REQUIRED)     # Find the GLFW package
+find_package(OpenGL REQUIRED)        # Find the OpenGL package
 
-# Add examples
-add_executable(example examples/simple_nn/main.cpp)
-target_link_libraries(example PRIVATE neuroevolution)
+add_executable(logos ${SOURCES})  # Define the executable and its source files
+
+target_link_libraries(logos glfw OpenGL::GL)  # Link the GLFW and OpenGL libraries to the executable
