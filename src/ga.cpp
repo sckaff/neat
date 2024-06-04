@@ -1,18 +1,13 @@
-#include <vector>
+#include "ne_lib/ga.hpp"
 #include <algorithm>
 #include <random>
 #include <ctime>
 
-// Individual representation
-typedef std::vector<double> Individual;
-
-// Fitness function (to be defined based on your problem)
 double fitness(const Individual& individual) {
     // Implement your fitness function here
     return 0.0;
 }
 
-// Mutation operator
 void mutate(Individual& individual, double mutationRate) {
     std::random_device rd;
     std::mt19937 gen(rd());
@@ -20,12 +15,11 @@ void mutate(Individual& individual, double mutationRate) {
 
     for (double& gene : individual) {
         if (dis(gen) < mutationRate) {
-            gene += dis(gen) - 0.5; // Add or subtract a random value
+            gene += dis(gen) - 0.5;
         }
     }
 }
 
-// Crossover operator
 Individual crossover(const Individual& parent1, const Individual& parent2) {
     Individual child(parent1.size());
     std::random_device rd;
@@ -44,29 +38,25 @@ Individual crossover(const Individual& parent1, const Individual& parent2) {
     return child;
 }
 
-// Genetic algorithm
 std::vector<Individual> geneticAlgorithm(int populationSize, int numGenerations, double mutationRate, double crossoverRate) {
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_real_distribution<> dis(0.0, 1.0);
 
-    // Initialize population
     std::vector<Individual> population(populationSize);
     for (Individual& individual : population) {
-        individual = std::vector<double>(10, 0.0); // Initialize with 10 genes
+        individual = std::vector<double>(10, 0.0);
         for (double& gene : individual) {
-            gene = dis(gen); // Random initialization
+            gene = dis(gen);
         }
     }
 
     for (int generation = 0; generation < numGenerations; generation++) {
-        // Evaluate fitness
         std::vector<double> fitnesses(populationSize);
         for (int i = 0; i < populationSize; i++) {
             fitnesses[i] = fitness(population[i]);
         }
 
-        // Select parents
         std::vector<Individual> parents;
         for (int i = 0; i < populationSize; i++) {
             if (dis(gen) < crossoverRate) {
@@ -74,7 +64,6 @@ std::vector<Individual> geneticAlgorithm(int populationSize, int numGenerations,
             }
         }
 
-        // Crossover and mutation
         std::vector<Individual> newPopulation;
         while (newPopulation.size() < populationSize) {
             Individual parent1 = parents[dis(gen) * parents.size()];

@@ -3,7 +3,7 @@
 /bin/
 
 # Third-party libraries
-/third-party/
+/third_party/
 
 # Ignore system-specific files
 .DS_Store

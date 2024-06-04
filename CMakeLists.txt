@@ -1,26 +1,26 @@
 cmake_minimum_required(VERSION 3.10)
 project(logos)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 # Add source files
 set(SOURCES
-    src/main.cpp
-    third-party/imgui/imgui.cpp
-    third-party/imgui/imgui_draw.cpp
-    third-party/imgui/imgui_demo.cpp
-    third-party/imgui/imgui_tables.cpp
-    third-party/imgui/imgui_widgets.cpp
-    third-party/imgui/backends/imgui_impl_glfw.cpp
-    third-party/imgui/backends/imgui_impl_opengl3.cpp
-    third-party/glad/src/glad.c
+    examples/main.cpp
+    third_party/imgui/imgui.cpp
+    third_party/imgui/imgui_draw.cpp
+    third_party/imgui/imgui_demo.cpp
+    third_party/imgui/imgui_tables.cpp
+    third_party/imgui/imgui_widgets.cpp
+    third_party/imgui/backends/imgui_impl_glfw.cpp
+    third_party/imgui/backends/imgui_impl_opengl3.cpp
+    third_party/glad/src/glad.c
 )
 
 # Add include directories
 include_directories(
-    third-party/imgui
-    third-party/imgui/backends
-    third-party/glad/include
+    third_party/imgui
+    third_party/imgui/backends
+    third_party/glad/include
 )
 
 # Find and link GLFW
