@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.10)  # Specify the minimum CMake version required
-project(logos)                  # Define the project name
+cmake_minimum_required(VERSION 3.10)
+project(logos)
 
-set(CMAKE_CXX_STANDARD 11)            # Set the C++ standard to be used
+set(CMAKE_CXX_STANDARD 11)
 
 # Add source files
 set(SOURCES
@@ -23,12 +23,10 @@ include_directories(
     third-party/glad/include
 )
 
-include_directories(/System/Library/Frameworks/OpenGL.framework)
-
 # Find and link GLFW
-find_package(glfw3 3.3 REQUIRED)     # Find the GLFW package
-find_package(OpenGL REQUIRED)        # Find the OpenGL package
+find_package(glfw3 3.3 REQUIRED)
+find_package(OpenGL REQUIRED)
 
-add_executable(logos ${SOURCES})  # Define the executable and its source files
+add_executable(logos ${SOURCES})
 
-target_link_libraries(logos glfw OpenGL::GL)  # Link the GLFW and OpenGL libraries to the executable
+target_link_libraries(logos glfw OpenGL::GL)
