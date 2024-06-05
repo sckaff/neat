@@ -6,8 +6,8 @@ double relu(double x);
 
 class NeuralNetwork {
 private:
-    std::vector<std::vector<double>> weights;
-    std::vector<std::vector<double>> biases;
+    std::vector<std::vector<double> > weights;
+    std::vector<std::vector<double> > biases;
     int numLayers;
     std::vector<int> layerSizes;
     double (*activationFunc)(double);

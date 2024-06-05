@@ -1,11 +1,17 @@
-# Articles
+# Resources
 
-1. [_Efficient Evolution of Neural Network Topologies_](https://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf). By Kenneth O. Stanley and Risto Miikkulainen. 2001.
-2. [_Biological order, structureand instabilities.](https://repositories.lib.utexas.edu/server/api/core/bitstreams/5e8c94d3-1ca5-4b35-a010-6cc6378fc825/content) By I. Prigogine and G. Nicolis. 1971._
-3. [_Novelty search and the problem with objectives._](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehmanNoveltySearch11.pdf) By Joel Lehman and Kenneth O. Stanley.
-4. [_Say “Sul Sul!∗” to SimSim, A Sims-Inspired Platform for Sandbox Game AI_.](https://arxiv.org/pdf/2008.11258.pdf) By NYU students.
-5. OMNI-EPIC: Open-endedness via Models of human Notions of Interestingness with Environments Programmed in Code: [paper](https://arxiv.org/abs/2405.15568)
-6. Policy Gradient Assisted MAP-Elites: [paper + code](https://github.com/ollebompa/PGA-MAP-Elites/blob/master/paper/PGA_MAP_Elites_GECCO.pdf)
+## Articles
+
+- [_Efficient Evolution of Neural Network Topologies_](https://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf). By Kenneth O. Stanley and Risto Miikkulainen. 2001.
+- [_Biological order, structureand instabilities.](https://repositories.lib.utexas.edu/server/api/core/bitstreams/5e8c94d3-1ca5-4b35-a010-6cc6378fc825/content) By I. Prigogine and G. Nicolis. 1971._
+- [_Novelty search and the problem with objectives._](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehmanNoveltySearch11.pdf) By Joel Lehman and Kenneth O. Stanley.
+- [_Say “Sul Sul!∗” to SimSim, A Sims-Inspired Platform for Sandbox Game AI_.](https://arxiv.org/pdf/2008.11258.pdf) By NYU students.
+- OMNI-EPIC: Open-endedness via Models of human Notions of Interestingness with Environments Programmed in Code: [paper](https://arxiv.org/abs/2405.15568)
+- Policy Gradient Assisted MAP-Elites: [paper + code](https://github.com/ollebompa/PGA-MAP-Elites/blob/master/paper/PGA_MAP_Elites_GECCO.pdf)
+- [Abstract representation emerge naturally in neural networks trained to perform multiple tasks](https://www.nature.com/articles/s41467-023-36583-0) Nature Feb 2023
+  - "They allow potentially novel examples of existing stimulus classes to be produced by linear interpolation in the abstract representation space"
+- [Adding randomness into algorithms makes them better at solving nondeterministic problems.](https://www.livescience.com/physics-mathematics/mathematics/avi-wigderson-wins-dollar1-million-turing-award-for-using-randomness-to-change-computer-science)
+- [Is Learning in Games Good for the Learners?](https://proceedings.neurips.cc/paper_files/paper/2023/file/a9ea92ef18aae17627d133534209e640-Paper-Conference.pdf)
 
 ## Misc (to organize better)
 
@@ -14,7 +20,6 @@
 - Motivation: [Flexible Muscle-Based Locomotion for Bipedal Creatures](https://www.youtube.com/watch?v=pgaEE27nsQw). Youtube. Nov 25, 2013.
 - [Evolutionary computation course](https://github.com/lmarti/evolutionary-computation-course). By [@lmarti](https://github.com/lmarti)
 - [How to Build a Conscious AI Agent](https://www.linkedin.com/pulse/how-build-conscious-ai-agent-babak-hodjat-3eotc/?trackingId=dTlgwrrjhu5MbD%2FBzGX7fg%3D%3D). By Babak Hodjat. March 3, 2024.
-- [Is Learning in Games Good for the Learners?](https://proceedings.neurips.cc/paper_files/paper/2023/file/a9ea92ef18aae17627d133534209e640-Paper-Conference.pdf)
 - Human-Competitive website (with GP videos) - [Link](https://www.human-competitive.org/)
 - Abstract and Reasoning Corpus benchmark - [Link](https://github.com/fchollet/ARC)
 - [GECCO 2024](https://gecco-2024.sigevo.org/HomePage)
