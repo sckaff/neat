@@ -1,11 +1,18 @@
+// Includes GLAD for managing OpenGL function pointers
 #include "glad/glad.h"
+
+// Includes GLFW for window creation and input handling
 #include <GLFW/glfw3.h>
+
+// Includes Dear ImGui for creating GUI elements
 #include "imgui.h"
 #include "backends/imgui_impl_glfw.h"
 #include "backends/imgui_impl_opengl3.h"
+
+// Standard I/O stream library for error output
 #include <iostream>
 
-// Error callback for GLFW
+// Callback function for GLFW errors, outputs error messages to the standard error stream
 void glfw_error_callback(int error, const char* description)
 {
     std::cerr << "GLFW Error " << error << ": " << description << std::endl;
@@ -13,66 +20,68 @@ void glfw_error_callback(int error, const char* description)
 
 int main(int, char**)
 {
-    // Set up GLFW error callback
+    // Set the error callback for GLFW to handle errors
     glfwSetErrorCallback(glfw_error_callback);
 
-    // Initialize GLFW
+    // Initialize the GLFW library, if initialization fails, return with an error code
     if (!glfwInit())
         return -1;
 
-    // Set OpenGL version to 3.2 (use version compatible with your hardware)
+    // Configure GLFW to use OpenGL version 3.2 with core profile
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 2);
-    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // Use core profile
-    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // For MacOS compatibility
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // For compatibility with MacOS
 
-    // Create a windowed mode window and its OpenGL context
+    // Create a GLFW window with a size of 800x600 and title "ImGui + GLFW + OpenGL"
     GLFWwindow* window = glfwCreateWindow(800, 600, "ImGui + GLFW + OpenGL", NULL, NULL);
     if (!window)
     {
+        // If window creation fails, terminate GLFW and return with an error code
         glfwTerminate();
         return -1;
     }
 
-    // Make the window's context current
+    // Make the OpenGL context of the window current
     glfwMakeContextCurrent(window);
-    glfwSwapInterval(1); // Enable vsync
+    // Enable vertical synchronization (vsync)
+    glfwSwapInterval(1);
 
-    // Initialize GLAD
+    // Initialize GLAD to load the OpenGL function pointers
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {
         std::cerr << "Failed to initialize GLAD!" << std::endl;
         return -1;
     }
 
-    // Setup Dear ImGui context
+    // Initialize Dear ImGui context
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     ImGuiIO& io = ImGui::GetIO(); (void)io;
 
-    // Setup Dear ImGui style
+    // Set Dear ImGui style to dark theme
     ImGui::StyleColorsDark();
 
-    // Setup Platform/Renderer bindings
+    // Initialize Dear ImGui for GLFW and OpenGL3
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init("#version 150");
 
-    // Variables for ImGui widgets
+    // Variables to hold input text and button state for ImGui widgets
     char inputText[128] = "";
     bool buttonPressed = false;
 
-    // Main loop
+    // Main rendering loop
     while (!glfwWindowShouldClose(window))
     {
-        // Poll and handle events
+        // Poll and handle events such as keyboard and mouse input
         glfwPollEvents();
 
-        // Start the ImGui frame
+        // Start a new ImGui frame
         ImGui_ImplOpenGL3_NewFrame();
         ImGui_ImplGlfw_NewFrame();
         ImGui::NewFrame();
 
-        // ImGui window code
+        // Create an ImGui window with widgets
         ImGui::Begin("Simple Window");
         ImGui::Text("Hello, world!");
         ImGui::InputText("Input", inputText, IM_ARRAYSIZE(inputText));
@@ -86,20 +95,20 @@ int main(int, char**)
         }
         ImGui::End();
 
-        // Rendering
+        // Render ImGui's draw data
         ImGui::Render();
         int display_w, display_h;
         glfwGetFramebufferSize(window, &display_w, &display_h);
         glViewport(0, 0, display_w, display_h);
-        glClearColor(1.0f, 1.0f, 1.0f, 1.0f); // White background
+        glClearColor(1.0f, 1.0f, 1.0f, 1.0f); // Set the background color to white
         glClear(GL_COLOR_BUFFER_BIT);
         ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 
-        // Swap buffers
+        // Swap front and back buffers
         glfwSwapBuffers(window);
     }
 
-    // Cleanup
+    // Cleanup ImGui and GLFW resources
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
     ImGui::DestroyContext();
