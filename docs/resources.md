@@ -2,12 +2,20 @@
 
 ## Articles
 
+- [The Surprising Creativity of Digital Evolution: A Collection of Anecdotes from the Evolutionary Computation and Artificial Life Research Communities](https://arxiv.org/abs/1803.03453)
+- [AutoML-Zero: Evolving Machine Learning Algorithms From Scratch](https://arxiv.org/pdf/2003.03384)
+- [Facing Up to the Problem of Consciousness](https://consc.net/papers/facing.pdf)
+- [FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)
+- [Approximation by Superpositions of a Sigmoidal Function](https://web.njit.edu/~usman/courses/cs675_fall18/10.1.1.441.7873.pdf)
+- [A Collection of Definitions of Intelligence](https://arxiv.org/pdf/0706.3639)
+- [Universal Intelligence: A Definition of Machine Intelligence](https://arxiv.org/pdf/0712.3329)
+- [On the Measure of Intelligence](https://arxiv.org/pdf/1911.01547)
 - [_Efficient Evolution of Neural Network Topologies_](https://nn.cs.utexas.edu/downloads/papers/stanley.cec02.pdf). By Kenneth O. Stanley and Risto Miikkulainen. 2001.
 - [_Biological order, structureand instabilities.](https://repositories.lib.utexas.edu/server/api/core/bitstreams/5e8c94d3-1ca5-4b35-a010-6cc6378fc825/content) By I. Prigogine and G. Nicolis. 1971._
 - [_Novelty search and the problem with objectives._](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/lehmanNoveltySearch11.pdf) By Joel Lehman and Kenneth O. Stanley.
 - [_Say “Sul Sul!∗” to SimSim, A Sims-Inspired Platform for Sandbox Game AI_.](https://arxiv.org/pdf/2008.11258.pdf) By NYU students.
-- OMNI-EPIC: Open-endedness via Models of human Notions of Interestingness with Environments Programmed in Code: [paper](https://arxiv.org/abs/2405.15568)
-- Policy Gradient Assisted MAP-Elites: [paper + code](https://github.com/ollebompa/PGA-MAP-Elites/blob/master/paper/PGA_MAP_Elites_GECCO.pdf)
+- [OMNI-EPIC: Open-endedness via Models of human Notions of Interestingness with Environments Programmed in Code](https://arxiv.org/abs/2405.15568)
+- [Policy Gradient Assisted MAP-Elites](https://github.com/ollebompa/PGA-MAP-Elites/blob/master/paper/PGA_MAP_Elites_GECCO.pdf)
 - [Abstract representation emerge naturally in neural networks trained to perform multiple tasks](https://www.nature.com/articles/s41467-023-36583-0) Nature Feb 2023
   - "They allow potentially novel examples of existing stimulus classes to be produced by linear interpolation in the abstract representation space"
 - [Adding randomness into algorithms makes them better at solving nondeterministic problems.](https://www.livescience.com/physics-mathematics/mathematics/avi-wigderson-wins-dollar1-million-turing-award-for-using-randomness-to-change-computer-science)
