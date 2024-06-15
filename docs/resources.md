@@ -2,6 +2,7 @@
 
 ## Articles
 
+- [Dissipative adaptation in driven self-assembly.](https://typeset.io/papers/dissipative-adaptation-in-driven-self-assembly-focnkaibkn)
 - [The Surprising Creativity of Digital Evolution: A Collection of Anecdotes from the Evolutionary Computation and Artificial Life Research Communities](https://arxiv.org/abs/1803.03453)
 - [AutoML-Zero: Evolving Machine Learning Algorithms From Scratch](https://arxiv.org/pdf/2003.03384)
 - [Facing Up to the Problem of Consciousness](https://consc.net/papers/facing.pdf)
