@@ -19,6 +19,10 @@
   - Abstract Representation Space may help to isolate which area of a neural net/part of an agent to use (more efficient)
 - Fitness function will be multi-objective, but one of it will be: How much energy it dissipates.
 - Bootstrap creativity. It’s almost like humanity prioritized creativity as a highly demanded feature. We should do the same.
+- Must keep learning at inference time
+- Solutions may require multiple steps
+- Fast thinking: Algorithms | Slow thinking: Deep learning
+  - How to absorb information from thinking to memory?
 
 ## Creativity
 
@@ -47,3 +51,11 @@
 - Mindless intelligence. A purely numerical solution beat the best chess player at the time, that could tell you “the way he plays”.
 - Optimize things that are non-differentiable and have a very long time horizon (meta learning, sparse exploration problems)
 - The necessity for a broader theoretical understanding of learning in machines.
+
+## Additional commentary
+
+- For ARC
+  - What information must we take from training?
+  - Symmetric it seems, so rotation generates more training data
+  - How to find symmetries inside image?
+    - This must be instant – that means, without using deep learning, it really shouldn't be hard
