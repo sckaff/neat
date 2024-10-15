@@ -32,7 +32,7 @@ For more information, visit the official [Rust installation guide](https://www.r
 Clone the project repository from GitHub (or wherever your project is hosted):
 
 ```bash
-git clone https://github.com/yourusername/logos.git
+git clone https://github.com/sckaff/logos.git
 cd logos
 ```
 
@@ -79,15 +79,15 @@ The project is structured as follows:
 ```bash
 logos/
 ├── src/
-│   ├── main.rs                      # Main entry point
-│   ├── windows/                     # Contains window logic
-│   │   ├── network_visualizer.rs    # Neural network visualizer window
-│   │   └── parameter_adjuster.rs    # Parameter adjustment window
-│   └── neuroevolution/              # Neuroevolution logic (custom library)
-│       ├── mod.rs                   # Entry point for neuroevolution module
-│       ├── neural_network.rs        # Neural network logic
-│       └── evolutionary.rs          # Evolutionary computation (EC) logic
-├── Cargo.toml                       # Dependencies and project configuration
+│   ├── main.rs                      
+│   ├── windows/                     
+│   │   ├── network_visualizer.rs    
+│   │   └── parameter_adjuster.rs    
+│   └── neuroevolution/              
+│       ├── mod.rs                   
+│       ├── neural_network.rs        
+│       └── evolutionary.rs          
+├── Cargo.toml                       
 ```
 
 ## Contributing

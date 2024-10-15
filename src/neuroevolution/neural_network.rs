@@ -11,7 +11,6 @@ pub struct Neuron {
     bias: f32,
 }
 
-// Implement simple methods for your neural network.
 impl NeuralNetwork {
     pub fn new(sizes: &[usize]) -> Self {
         // Initialize layers and neurons based on size of each layer

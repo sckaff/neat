@@ -16,7 +16,6 @@ pub fn show(ctx: &egui::Context, open: &mut bool) {
             ui.label("Mutation Rate:");
             ui.add(egui::Slider::new(&mut 0.05, 0.0..=1.0).text("mutation_rate"));
 
-            // Button to start the training process
             if ui.button("Train Neural Network").clicked() {
                 // Placeholder: Connect to training logic
                 ui.label("Training started!");
