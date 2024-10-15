@@ -6,3 +6,7 @@ edition = "2021"
 [dependencies]
 egui = "0.29.1"
 eframe = "0.29.1"
+
+# For neuroevolution
+ndarray = "0.16.1"   # For matrix math (or similar for neural networks)
+rand = "0.8.5"       # For randomness in evolutionary algorithms
