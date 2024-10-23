@@ -2,6 +2,7 @@
 
 ## Articles
 
+- [GA with multi-parent recombination](https://www.researchgate.net/publication/220701605_Genetic_algorithms_with_multi-parent_recombination)
 - [Color Palette List](https://lospec.com/palette-list/)
 - [Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://arxiv.org/abs/2406.19108)
 - [Dissipative adaptation in driven self-assembly.](https://typeset.io/papers/dissipative-adaptation-in-driven-self-assembly-focnkaibkn)
