@@ -1,12 +1,6 @@
-# Logos: Neuroevolution Research Application
+# NEAT visualizer on Ruse
 
-Logos is a research development tool for neuroevolution, designed to visualize neural network growth and provide controls for adjusting parameters of the evolutionary computation (EC) process. The application uses multiple windows for visualizing and interacting with the neuroevolution process.
-
-## Features
-
-- Visualize the structure of evolving neural networks.
-- Adjust parameters for both neural networks and evolutionary computation (mutation rate, learning rate, etc.).
-- Trigger the training process via a user interface.
+Test it on Knnapsack, Luna Invader, and Snake!
 
 ## Requirements
 
