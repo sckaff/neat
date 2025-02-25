@@ -1,4 +1,4 @@
-# NEAT visualizer on Ruse
+# NEAT visualizer on Rust
 
 Test it on Knnapsack, Luna Invader, and Snake!
 
